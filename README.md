@@ -47,6 +47,21 @@ FOODLES_CSRFTOKEN=votre_csrf_token_ici
 
 ## 📊 Utilisation
 
+### Option rapide : Scan complet quotidien 🎯
+
+**Recommandé pour usage quotidien** - Exécute tout en une seule commande :
+
+```bash
+python scripts/full_scan.py
+```
+
+**Ce qu'il fait :**
+1. 📥 Capture automatique des 3 cantines (~30s)
+2. 🔥 Affiche le tableau des produits en DLC courte
+3. 📊 Stats complètes (prix, quantités, végé)
+
+---
+
 ### Méthode 1 : Capture automatique (recommandé) 🤖
 
 Capture automatiquement les 3 cantines en ~30 secondes avec Playwright :
@@ -103,6 +118,7 @@ foodle/
 ├── requirements.txt             # Dépendances Python
 │
 ├── scripts/                     # Scripts principaux
+│   ├── full_scan.py                # 🎯 Scan complet (capture + DLC)
 │   ├── capture_hybrid_auto.py      # 🤖 Capture auto (Playwright + HTTP)
 │   ├── generate_report.py          # 📊 Générateur de rapport détaillé
 │   ├── show_dlc.py                 # 🔥 Tableau produits DLC courte
