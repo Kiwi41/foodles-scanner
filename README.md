@@ -69,7 +69,21 @@ Génère un rapport comparatif depuis les dernières données capturées :
 python scripts/generate_report.py
 ```
 
-### Méthode 3 : Comparaison interactive
+### Méthode 3 : Tableau des produits en DLC courte 🔥
+
+Affiche un tableau synthétique des produits à date limite courte :
+
+```bash
+python scripts/show_dlc.py
+```
+
+**Affiche :**
+- Tableau formaté par cantine avec prix et quantités
+- Statistiques par cantine (valeur totale, nombre d'unités)
+- Compteur de produits végétariens
+- Meilleure affaire du jour
+
+### Méthode 4 : Comparaison interactive
 
 ```bash
 python scripts/compare_cantines.py
@@ -91,6 +105,7 @@ foodle/
 ├── scripts/                     # Scripts principaux
 │   ├── capture_hybrid_auto.py      # 🤖 Capture auto (Playwright + HTTP)
 │   ├── generate_report.py          # 📊 Générateur de rapport détaillé
+│   ├── show_dlc.py                 # 🔥 Tableau produits DLC courte
 │   ├── compare_cantines.py         # 🔍 Comparaison interactive
 │   └── auto_report.sh              # Wrapper shell (legacy)
 │
