@@ -1,0 +1,13 @@
+1:"$Sreact.fragment"
+2:I[81959,[],"ClientPageRoot"]
+3:I[8968,["9023","static/chunks/9023-cdd3a4f2971717e5.js","2402","static/chunks/2402-5c1f4180b216615c.js","7855","static/chunks/7855-20f190f290054899.js","1029","static/chunks/1029-aa0eba64c9467896.js","6743","static/chunks/6743-d7a486a124975723.js","9488","static/chunks/9488-4145e4cc75eb6c81.js","595","static/chunks/595-0b5ba7179276614e.js","4316","static/chunks/4316-73365b3ddfea0a39.js","296","static/chunks/296-5e9619537accd473.js","285","static/chunks/285-9b39dfbeb5ba21d4.js","5387","static/chunks/5387-b092ac9e4ab00f64.js","8337","static/chunks/8337-bfd80fa284d7218c.js","5807","static/chunks/5807-7a0fcbe91bcf7cf9.js","6685","static/chunks/6685-5dfb853b2b3d15d5.js","6330","static/chunks/6330-4740b3ee5c3d5a6a.js","9324","static/chunks/9324-1aa75f8412dbbb92.js","518","static/chunks/518-3524c8ed857f9eda.js","5267","static/chunks/5267-13c31440642f61b2.js","6173","static/chunks/6173-0dd7d72eb6202434.js","8856","static/chunks/app/(home)/canteen/fridge/page-9931b760dc88ded8.js"],"default"]
+4:I[24431,[],"OutletBoundary"]
+6:I[15278,[],"AsyncMetadataOutlet"]
+8:I[24431,[],"ViewportBoundary"]
+a:I[24431,[],"MetadataBoundary"]
+b:"$Sreact.suspense"
+0:{"b":"WQUcON8s4vl-IXfZV4cIz","f":[["children","(home)","children","canteen","children","fridge","children","__PAGE__",["__PAGE__",{}],["__PAGE__",["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","searchParams":{},"params":{}}],null,["$","$L4",null,{"children":["$L5",["$","$L6",null,{"promise":"$@7"}]]}]]}],{},null,false],["$","$1","h",{"children":[null,["$","$1","Lk1BUmNi5kqJAe6y7GBkOv",{"children":[["$","$L8",null,{"children":"$L9"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$La","Lk1BUmNi5kqJAe6y7GBkOm",{"children":["$","div",null,{"hidden":true,"children":["$","$b",null,{"fallback":null,"children":"$Lc"}]}]}]]}],false]],"S":false}
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+5:null
+7:{"metadata":[["$","title","0",{"children":"Foodles"}],["$","meta","1",{"name":"description","content":"Foodles Web App"}]],"error":null,"digest":"$undefined"}
+c:"$7:metadata"

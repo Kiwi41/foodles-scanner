@@ -1,0 +1,30 @@
+# Secrets et configuration locale
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Données capturées (sensibles)
+cantines_data/*.json
+data/*.json
+
+# Fichiers de debug
+*.png
+*.log
+debug_*.html
+
+# Dossiers obsolètes (déjà archivés)
+api_responses/
+network_capture/
+manual_capture/
