@@ -33,13 +33,18 @@ def load_cantines_data():
                         else:
                             price_val = price
                         
+                        # Vérifier si végétarien
+                        filter_reasons = item.get('filter_reasons', {})
+                        excluded_diets = filter_reasons.get('excluded_diets', []) if filter_reasons else []
+                        is_vegetarian = 'VEGETARIAN' not in excluded_diets
+                        
                         products_dlc.append({
                             'cantine': cantine,
                             'nom': item.get('name', 'N/A'),
                             'categorie': category.get('name', 'N/A'),
                             'prix': price_val / 100 if price_val else 0,
                             'quantite': item.get('quantity', 0),
-                            'vegetarien': '🌱' if item.get('is_vegetarian', False) else ''
+                            'vegetarien': '🌱' if is_vegetarian else ''
                         })
         except Exception as e:
             print(f"❌ Erreur lors du chargement de {cantine}: {e}")
